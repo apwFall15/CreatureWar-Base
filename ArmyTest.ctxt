@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArmyTest()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ArmyTest\r\n
+comment1.params=numTests\ showStats
+comment1.target=boolean\ testHuman(int,\ boolean)
+comment1.text=\r\n\ A\ test\ of\ the\ human\ class\r\n\ @param\ numTests\ -\ number\ of\ humans\ to\ create\r\n\ @param\ showStats\ -\ allows\ method\ to\ print\ out\ tested\ stats\r\n
+comment2.params=numTests\ showStats
+comment2.target=boolean\ testElf(int,\ boolean)
+comment2.text=\r\n\ A\ test\ of\ the\ elf\ class,\ will\ check\ HP\ and\ STR,\ if\ showstats\ active,\ will\ run\ a\ combat\r\n\ simulation\ to\ demonstrate\ the\ frequencey\ of\ its\ special\ attack\ characteristic\r\n\ @param\ numTests\ -\ number\ of\ humans\ to\ create\r\n\ @param\ showStats\ -\ allows\ method\ to\ print\ out\ tested\ stats\r\n
+comment3.params=numTests\ showStats
+comment3.target=boolean\ testBalrog(int,\ boolean)
+comment3.text=\r\n\ A\ test\ of\ the\ Balrog\ class,\ will\ check\ HP\ and\ STR,\ if\ showstats\ active,\ will\ run\ a\ combat\r\n\ simulation\ to\ demonstrate\ the\ frequencey\ of\ its\ special\ attack\ characteristic\r\n\ @param\ numTests\ -\ number\ of\ humans\ to\ create\r\n\ @param\ showStats\ -\ allows\ method\ to\ print\ out\ tested\ stats\r\n
+numComments=4

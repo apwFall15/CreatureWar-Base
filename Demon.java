@@ -9,8 +9,8 @@ import java.util.Random;
 public class Demon extends Creature
 {
     private Random rand = new Random();
-    private final int HPModifier = 30;
-    private final int STRModifier = 18;
+    private final int HPModifier = 31;
+    private final int STRModifier = 11;
     private final int CRITDamage = 50;
     private final double CRITChance = .05;
     private int numAttacks = 1;
@@ -36,7 +36,6 @@ public class Demon extends Creature
         int dmg = 0;
         dmg += rand.nextInt(getSTR())+1;
         dmg += critRoll();
-        System.out.println("The creature attacks for " + dmg + " damage!");
         return dmg;
     }
     

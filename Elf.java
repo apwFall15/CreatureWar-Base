@@ -9,8 +9,9 @@ import java.util.Random;
 public class Elf extends Creature
 {
     private Random rand = new Random();
-    private final int HPModifier = 15;
-    private final int STRModifier = 10;
+    private final int HPModifier = 16;
+    private final int STRModifier = 11;
+    private final double DBLATKChance = .1;
 
     /**
      * Constructor for Elf, a type of creature
@@ -22,12 +23,15 @@ public class Elf extends Creature
         setSTR(rand.nextInt(STRModifier)+minSTR);
     }
     
+    public int doAttack(){
+        return rand.nextInt(getSTR())+1;
+    }
+    
     public int damage(){
         int dmg = 0;
-        dmg += rand.nextInt(getSTR())+1;
-        System.out.println(dmg);
-        dmg *=(((rand.nextInt(10)+1)/10)+1); 
-        System.out.println(dmg);
+        dmg += doAttack();
+        if(rand.nextDouble() <= DBLATKChance)
+            dmg *= 2;
         return dmg;
         
     }
