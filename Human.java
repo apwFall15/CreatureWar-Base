@@ -1,0 +1,26 @@
+import java.util.Random;
+
+/**
+ * A human character in creature war
+ * 
+ * @author Andrew Worthington
+ * @version 10.14.15
+ */
+public class Human extends Creature
+{
+    private Random rand = new Random();
+    private final int HPModifier = 25;
+    private final int STRModifier = 13;
+
+    /**
+     * Constructor for Human, a type of creature
+     */
+    public Human()
+    {
+        super();
+        setHP(rand.nextInt(HPModifier)+minHP);
+        setSTR(rand.nextInt(STRModifier)+minSTR);
+    }
+
+
+}

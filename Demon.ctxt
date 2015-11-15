@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demon()
+comment0.text=\r\n\ Constructor\ for\ Demon,\ a\ type\ of\ creature\r\n
+comment1.params=
+comment1.target=int\ critRoll()
+comment2.params=
+comment2.target=int\ doAttack()
+comment3.params=
+comment3.target=int\ damage()
+comment3.text=\r\n\ the\ creature's\ attack\ phase\r\n
+comment4.params=numAttacks
+comment4.target=void\ setNumAttacks(int)
+numComments=5
