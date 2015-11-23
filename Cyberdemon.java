@@ -13,7 +13,8 @@ public class Cyberdemon extends Demon
      */
     public Cyberdemon()
     {
-            
+        super();
+        this.setCreatureName("Cyberdemon");
     }
 
 }

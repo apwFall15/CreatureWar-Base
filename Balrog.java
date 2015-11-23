@@ -16,6 +16,7 @@ public class Balrog extends Demon
     public Balrog()
     {
         super();
+        this.setCreatureName("Balrog");
         setNumAttacks(2);
     }
 

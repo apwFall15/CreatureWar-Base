@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArmySimulation()
+comment1.params=
+comment1.target=void\ generateNewArmies()
+comment1.text=\r\n\ method\ to\ create\ two\ armies\ of\ creates\ that\ will\ fight\r\n
+comment2.params=armySize
+comment2.target=void\ generateNewArmies(int)
+comment2.text=\r\n\ overloaded\ method\ to\ create\ two\ armies\ of\ creates\ that\ will\ fight\r\n\ @param\ armySize\ -\ number\ of\ creatures\ to\ create\ for\ each\ army\r\n
+comment3.params=
+comment3.target=Creature\ randomCreature()
+comment3.text=\r\n\ pick\ a\ random\ creature\ and\ return\ it\r\n
+comment4.params=
+comment4.target=void\ RunSimulation()
+comment4.text=\r\n\ Cause\ the\ two\ armies\ to\ battle\ until\ one\ is\ destroyed.\r\n
+numComments=5

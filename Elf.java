@@ -21,6 +21,7 @@ public class Elf extends Creature
         super();
         setHP(rand.nextInt(HPModifier)+minHP);
         setSTR(rand.nextInt(STRModifier)+minSTR);
+        this.setCreatureName("Elf");
     }
     
     public int doAttack(){
